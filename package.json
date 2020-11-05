@@ -1,0 +1,24 @@
+{
+  "name": "set-aws-credentials",
+  "version": "1.0.0",
+  "description": "Script to login to aws and get temporary credentials and token, then add them to credentials file",
+  "main": "setAwsCredentials.js",
+  "scripts": {
+    "set-credentials": "node ./setAwsCredentials.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Patricia008/SetAWSCredentials.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Patricia008/SetAWSCredentials/issues"
+  },
+  "homepage": "https://github.com/Patricia008/SetAWSCredentials#readme",
+  "dependencies": {
+    "aws-sdk": "^2.785.0",
+    "dotenv": "^8.2.0",
+    "node-fetch": "^2.6.1"
+  }
+}
